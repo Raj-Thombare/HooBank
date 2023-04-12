@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import CTA from "./CTA";
 import Stats from "./Stats";
 import Testimonials from "./Testimonials";
+import GetStarted from "./GetStarted";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   CTA,
   Stats,
   Testimonials,
+  GetStarted,
 };
