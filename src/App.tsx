@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import {
   Navbar,
   Hero,
@@ -22,7 +22,9 @@ const App = () => {
       </div>
 
       <div className="bg-black flex justify-center items-start">
-        <div className="xl:max-w-[1280px] w-full"><Hero /></div>
+        <div className="xl:max-w-[1280px] w-full">
+          <Hero />
+        </div>
       </div>
 
       <div className="bg-black sm:px-16 px-6 flex justify-center items-start">
@@ -39,6 +41,6 @@ const App = () => {
       </div>
     </div>
   );
-}
+};
 
-export default App
+export default App;

@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+const Stats: React.FC = () => {
+  return <div>Stats</div>;
+};
 
-const Stats = (props: Props) => {
-  return (
-    <div>Stats</div>
-  )
-}
-
-export default Stats
+export default Stats;

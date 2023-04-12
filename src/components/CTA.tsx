@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+const CTA: React.FC = () => {
+  return <div>CTA</div>;
+};
 
-const CTA = (props: Props) => {
-  return (
-    <div>CTA</div>
-  )
-}
-
-export default CTA
+export default CTA;

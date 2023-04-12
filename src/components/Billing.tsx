@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+const Billing: React.FC = () => {
+  return <div>Billing</div>;
+};
 
-const Billing = (props: Props) => {
-  return (
-    <div>Billing</div>
-  )
-}
-
-export default Billing
+export default Billing;

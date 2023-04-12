@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+const CardDeal: React.FC = () => {
+  return <div>CardDeal</div>;
+};
 
-const CardDeal = (props: Props) => {
-  return (
-    <div>CardDeal</div>
-  )
-}
-
-export default CardDeal
+export default CardDeal;

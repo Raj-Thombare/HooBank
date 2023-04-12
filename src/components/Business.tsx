@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+const Business: React.FC = () => {
+  return <div>Business</div>;
+};
 
-const Business = (props: Props) => {
-  return (
-    <div>Business</div>
-  )
-}
-
-export default Business
+export default Business;

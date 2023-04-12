@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+const Testimonials: React.FC = () => {
+  return <div>Testimonials</div>;
+};
 
-const Testimonials = (props: Props) => {
-  return (
-    <div>Testimonials</div>
-  )
-}
-
-export default Testimonials
+export default Testimonials;

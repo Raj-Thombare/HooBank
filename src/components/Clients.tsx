@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+const Clients: React.FC = () => {
+  return <div>Clients</div>;
+};
 
-const Clients = (props: Props) => {
-  return (
-    <div>Clients</div>
-  )
-}
-
-export default Clients
+export default Clients;
